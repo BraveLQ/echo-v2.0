@@ -1,10 +1,13 @@
 <template>
-    <div class="flex bg-black">
+<public-layout>
 
-    </div>
+</public-layout>
+
 </template>
 <script setup>
 import { ref } from "vue";
+import Search from "@/Pages/components/Search.vue";
+import PublicLayout from "@/Pages/Public/Layout/PublicLayout.vue";
 
-const isOpen = ref(false);
+const isOpen = ref(true);
 </script>
